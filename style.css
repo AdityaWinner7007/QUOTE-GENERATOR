@@ -26,6 +26,7 @@ justify-content: space-between
    
 }
 
+
 .button button{
     
     background: #764ba2;
@@ -43,4 +44,20 @@ justify-content: space-between
     align-items: center;
     justify-content: center;
     padding: 15px;
+}
+
+.buttoncontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px   ;
+}
+.copybutton button{
+       background: #764ba2;
+    color: white;
+    border: none;
+     padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
 }
